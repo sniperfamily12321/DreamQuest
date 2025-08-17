@@ -1,7 +1,22 @@
-"homepage": "https://sniperfamily12321.github.io/DreamQuest/",
-"scripts": {
-  "dev": "vite",
-  "build": "vite build",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d dist"
+{
+  "name": "dreamquest",
+  "version": "1.0.0",
+  "private": true,
+  "homepage": "https://sniperfamily12321.github.io/DreamQuest/",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "vite": "^4.0.0",
+    "@vitejs/plugin-react": "^4.0.0",
+    "gh-pages": "^6.0.0"
+  }
 }
