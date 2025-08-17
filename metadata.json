@@ -1,0 +1,7 @@
+{
+  "name": "DreamQuest",
+  "description": "A dynamic text adventure game powered by SHOOTERS X TITANS. Explore a world where your choices shape the story, with AI-generated scenes and multi-language support.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
